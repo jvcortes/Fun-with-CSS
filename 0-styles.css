@@ -1,0 +1,50 @@
+ul {
+  list-style-type: none;
+  text-align: justify;
+}
+
+ul:after {
+  content: '';
+  display: inline-block;
+}
+
+ul:before {
+  content: '';
+  margin-top: -1.25em;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1.25em;
+  position: relative;
+  top: 1.25em;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 3%;
+  background-color: #F7F7F7;
+}
+
+.icon {
+  display: block;
+  width: 230px;
+  height: 280px;
+  margin-top: 1em;
+}
+
+.i-html {
+  background: url('0-sprite.png') 10px 0;
+  background-size: cover;
+}
+
+.i-css {
+  background: url('0-sprite.png') -205px 0;
+  background-size: cover;
+}
+
+.i-js {
+  background: url('0-sprite.png') -420px 0;
+  background-size: cover;
+}
